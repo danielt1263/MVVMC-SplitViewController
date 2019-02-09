@@ -1,37 +1,55 @@
 PODS:
-  - Alamofire (4.6.0)
+  - Alamofire (4.8.1)
   - CodableAlamofire (1.1.0):
     - Alamofire (~> 4.0)
-  - Differentiator (3.0.2)
-  - RxCocoa (4.1.1):
+  - Differentiator (3.1.0)
+  - RxAtomic (4.4.0)
+  - RxCocoa (4.4.0):
     - RxSwift (~> 4.0)
-  - RxDataSources (3.0.2):
+  - RxDataSources (3.1.0):
     - Differentiator (~> 3.0)
     - RxCocoa (~> 4.0)
     - RxSwift (~> 4.0)
-  - RxSwift (4.1.1)
-  - RxSwiftExt (3.1.0):
-    - RxSwiftExt/Core (= 3.1.0)
-  - RxSwiftExt/Core (3.1.0):
+  - RxSwift (4.4.0):
+    - RxAtomic (~> 4.4)
+  - RxSwiftExt (3.4.0):
+    - RxSwiftExt/Core (= 3.4.0)
+    - RxSwiftExt/RxCocoa (= 3.4.0)
+  - RxSwiftExt/Core (3.4.0):
     - RxSwift (~> 4.0)
+  - RxSwiftExt/RxCocoa (3.4.0):
+    - RxCocoa (~> 4.0)
+    - RxSwiftExt/Core
 
 DEPENDENCIES:
-  - Alamofire (~> 4.4)
+  - Alamofire
   - CodableAlamofire
-  - RxCocoa (~> 4.0)
-  - RxDataSources (~> 3.0)
-  - RxSwift (~> 4.0)
-  - RxSwiftExt (~> 3.0)
+  - RxCocoa
+  - RxDataSources
+  - RxSwift
+  - RxSwiftExt
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CodableAlamofire
+    - Differentiator
+    - RxAtomic
+    - RxCocoa
+    - RxDataSources
+    - RxSwift
+    - RxSwiftExt
 
 SPEC CHECKSUMS:
-  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
   CodableAlamofire: e2d2edcec7cf413f7862c30c8fa98eded27a83f9
-  Differentiator: a87be69eba49ec4ab460c7671143ee3a9eececfd
-  RxCocoa: fd0862fd2df95fa55562ad28ffd2522c25eb4a85
-  RxDataSources: cb7c31e652a87ebb919da45f716bbb87b3765f6b
-  RxSwift: c6e3b1c7b325c7d121cd4327e9d98b7ed746b570
-  RxSwiftExt: a9b9c8e94be009146707f9fcb16eaf3cc1f3910c
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
+  RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
+  RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
+  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
+  RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
+  RxSwiftExt: 01f8ecbeeb355698e9c75365ebe908b00dacf45d
 
-PODFILE CHECKSUM: 363a845ef62794220e3ad9c9c022d12761600961
+PODFILE CHECKSUM: 00a48c1e6ed129cdf0150d414f33167c7cc517cf
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.3

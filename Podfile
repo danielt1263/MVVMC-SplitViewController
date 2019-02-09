@@ -3,19 +3,18 @@ platform :ios, '11.0'
 
 # Basic
 def basic_pods
-  pod 'Alamofire',          '~> 4.4'
-  pod 'CodableAlamofire'
-  # pod 'SwiftyBeaver'
-  pod 'RxSwift',            '~> 4.0'
-  pod 'RxCocoa',            '~> 4.0'
-  pod 'RxSwiftExt',         '~> 3.0'
-  pod 'RxDataSources',      '~> 3.0'
+  pod 'Alamofire', '~> 4.8'
+  pod 'CodableAlamofire', '~> 1.1'
+  pod 'RxSwift', '~> 4.4'
+  pod 'RxCocoa', '~> 4.4'
+  pod 'RxSwiftExt', '~> 3.4'
+  pod 'RxDataSources', '~> 3.1'
 end
 
 # Testing
 def test_pods
-  pod 'RxBlocking',         '~> 4.0'
-  pod 'RxTest',             '~> 4.0'
+  pod 'RxBlocking'
+  pod 'RxTest'
 end
 
 target 'MVVMC-SplitViewController' do
